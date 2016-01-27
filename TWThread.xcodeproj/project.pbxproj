@@ -15,6 +15,7 @@
 		EB5D592A1C5893C500BFAC09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5D59281C5893C500BFAC09 /* LaunchScreen.storyboard */; };
 		EB5D59351C5893C500BFAC09 /* TWThreadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D59341C5893C500BFAC09 /* TWThreadTests.m */; };
 		EB5D59401C5893C500BFAC09 /* TWThreadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D593F1C5893C500BFAC09 /* TWThreadUITests.m */; };
+		EB5D59501C58941200BFAC09 /* TWThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D594F1C58941200BFAC09 /* TWThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EB5D593B1C5893C500BFAC09 /* TWThreadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWThreadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5D593F1C5893C500BFAC09 /* TWThreadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWThreadUITests.m; sourceTree = "<group>"; };
 		EB5D59411C5893C500BFAC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5D594E1C58941200BFAC09 /* TWThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWThread.h; sourceTree = "<group>"; };
+		EB5D594F1C58941200BFAC09 /* TWThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		EB5D59191C5893C500BFAC09 /* TWThread */ = {
 			isa = PBXGroup;
 			children = (
+				EB5D594D1C58941200BFAC09 /* TWThread */,
 				EB5D591D1C5893C500BFAC09 /* AppDelegate.h */,
 				EB5D591E1C5893C500BFAC09 /* AppDelegate.m */,
 				EB5D59201C5893C500BFAC09 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				EB5D59411C5893C500BFAC09 /* Info.plist */,
 			);
 			path = TWThreadUITests;
+			sourceTree = "<group>";
+		};
+		EB5D594D1C58941200BFAC09 /* TWThread */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D594E1C58941200BFAC09 /* TWThread.h */,
+				EB5D594F1C58941200BFAC09 /* TWThread.m */,
+			);
+			path = TWThread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5D59501C58941200BFAC09 /* TWThread.m in Sources */,
 				EB5D59221C5893C500BFAC09 /* ViewController.m in Sources */,
 				EB5D591F1C5893C500BFAC09 /* AppDelegate.m in Sources */,
 				EB5D591C1C5893C500BFAC09 /* main.m in Sources */,
